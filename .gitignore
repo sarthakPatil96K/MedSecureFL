@@ -1,0 +1,28 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Datasets & Large Models
+datasets/
+*.pth
+*.bin
+*.safetensors
+*.tar.gz
+*.zip
+
+# Results & Cache
+results/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Node / Frontend
+node_modules/
+dist/
+build/
+
+# Environment & Secrets
+.env
+.env.local
