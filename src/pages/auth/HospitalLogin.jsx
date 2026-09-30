@@ -1,0 +1,2 @@
+import AuthLayout from '../../components/auth/AuthLayout'; import LoginForm from '../../components/auth/LoginForm'; import { loginHospital } from '../../services/authService'
+export default () => <AuthLayout title="Hospital Portal Login" subtitle="Access your hospital's federated learning environment."><LoginForm loginFn={loginHospital} redirect="/hospital/dashboard" hint="hospital@medsecurefl.local / hospital123" registerLink /></AuthLayout>

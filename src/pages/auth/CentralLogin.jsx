@@ -1,0 +1,2 @@
+import AuthLayout from '../../components/auth/AuthLayout'; import LoginForm from '../../components/auth/LoginForm'; import { loginCentral } from '../../services/authService'
+export default () => <AuthLayout title="Central Authority Login" subtitle="Secure access to the MedSecureFL federated learning control center."><LoginForm loginFn={loginCentral} redirect="/central/dashboard" hint="admin@medsecurefl.local / admin123" /></AuthLayout>
